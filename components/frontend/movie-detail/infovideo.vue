@@ -90,6 +90,7 @@ export default {
                                         text: 'Adding favorite success'
                                     });
                                     this.imgSrc = 'bookmark-true'
+                                    this.infoData.is_favorite = true
                                 } else {
                                     this.$notify({
                                         group: 'all',
@@ -123,6 +124,7 @@ export default {
                                     text: 'Removing favorite success'
                                 });
                                 this.imgSrc = 'bookmark-false'
+                                this.infoData.is_favorite = false
                             } else {
                                 this.$notify({
                                     group: 'all',
