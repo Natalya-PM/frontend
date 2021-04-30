@@ -50,7 +50,7 @@
                                             </div>
                                             <div class="block-description description-sports">
                                                 <p>{{ item.title }}</p>
-                                                <nuxt-link :to="{ path: '/frontend/channel-detail', query: { id: item.id } }" target="_blank" class="hover-buttons">
+                                                <nuxt-link :to="{ path: '/frontend/channel-detail', query: { id: item.id } }"  class="hover-buttons">
                                                     <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true" />
                                                         Play Now</span>
                                                 </nuxt-link>

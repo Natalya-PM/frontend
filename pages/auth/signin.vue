@@ -5,12 +5,13 @@
             <div class="sign-user_card ">
                 <div class="sign-in-page-data">
                     <div class="sign-in-from w-100 m-auto">
-                        <div class="sign-in-logo text-center">
+                        <!-- <div class="sign-in-logo text-center">
                             <img src="../../assets/images/logo.png" class="text-center">
-                        </div>
-                        <h5 class="mt-3 text-white mb-0 text-center">
+                        </div> -->
+                        <h3 class="mt-3 text-white mb-0 text-center">
                             Apollo.TV.Group
-                        </h5>
+                        </h3>
+                        <br>
                         <p class="text-white text-center hint-text">
                             Enter your email and password
                         </p>

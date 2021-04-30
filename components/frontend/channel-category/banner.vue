@@ -19,7 +19,7 @@
                     <h4 class="text-white mb-1">{{item.title}}</h4>
                     <div class="movie-time d-flex align-items-center">
                         <span class="text-white">{{item.name}}</span>
-                        <nuxt-link :to="{ path: '/frontend/channel-detail', query: { id: item.id } }" target="_blank" class="hover-buttons">
+                        <nuxt-link :to="{ path: '/frontend/channel-detail', query: { id: item.id } }"  class="hover-buttons">
                             <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true" />
                                 Play Now</span>
                         </nuxt-link>

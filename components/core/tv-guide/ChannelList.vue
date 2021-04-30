@@ -30,7 +30,7 @@
                             </div>
 
                             <div class="channel__name__box" :data-channel="channel.id" v-for="(channel, index) in channelList" :key="index" track-by="channel.id">
-                                <nuxt-link :to="{ path: '/frontend/channel-detail', query: { id: channel.id } }" target="_blank" class="hover-buttons">
+                                <nuxt-link :to="{ path: '/frontend/channel-detail', query: { id: channel.id } }"  class="hover-buttons">
                                     <div class="channel__name">
                                         <div>{{channel.title}}</div>
                                         <!-- <div style="font-size:0.8em;font-weight:bold;color: #4085ce;">{{channel.name}}</div> -->

@@ -21,7 +21,7 @@
                                                 imdb_id: sessonData.imdb_id,
                                                 season: season,
                                                 episode: item.episode
-                                                } }" target="_blank">
+                                                } }" >
                                             <i class="ri-play-fill"></i>
                                         </nuxt-link>
                                     </div>

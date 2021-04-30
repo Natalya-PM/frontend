@@ -20,15 +20,15 @@ export const mutations = {
 export const actions = {
   authenticateUser(vuexContext, authData) {
     let queryStr = require('querystring');
-    /*let body = queryStr['stringify']({
+    let body = queryStr['stringify']({
         username: authData.email,
         password: authData.password
-    });*/
+    });
 
-    let body = queryStr['stringify']({
-      username: "pometunmmn@gmail.com",
-      password: "67445"
-  });
+  //   let body = queryStr['stringify']({
+  //     username: "pometunmmn@gmail.com",
+  //     password: "67445"
+  // });
 
     return this.$axios
       .$post("login", body)

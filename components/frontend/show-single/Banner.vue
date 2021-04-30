@@ -7,7 +7,7 @@
                   imdb_id: bannerData.imdb_id,
                   season: bannerData.season,
                   episode: bannerData.episode
-                  } }" target="_blank" class="d-flex align-items-center">
+                  } }"  class="d-flex align-items-center">
                 <div class="play-button">
                     <i class="fa fa-play"></i>
                 </div>

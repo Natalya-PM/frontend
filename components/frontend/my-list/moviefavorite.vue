@@ -30,7 +30,7 @@
                         <div class="favorites-contents">
                             <VueSlickCarousel v-if="this.items.length > 0" class="favorites-slider list-inline  row p-0 mb-0" ref="dSlick" v-bind="sliderOption">
                                 <li v-for="(item,index) in items" :key="index" class="slide-item" :data-index="index">
-                                    <nuxt-link :to="{ path: '/frontend/movie-detail', query: { imdb_id: item.imdb_id } }" target="_blank">
+                                    <nuxt-link :to="{ path: '/frontend/movie-detail', query: { imdb_id: item.imdb_id } }" >
                                         <div class="block-images position-relative">
                                             <div class="img-box">
                                                 <img :src="item.poster" loading="lazy" class="img-fluid" alt="" v-lazy-load>
@@ -52,7 +52,7 @@
                                                 </div>
                                             </div>
                                             <div class="block-description">
-                                                <nuxt-link :to="{ path: '/frontend/movie-detail', query: { imdb_id: item.imdb_id } }" target="_blank" class="hover-buttons">
+                                                <nuxt-link :to="{ path: '/frontend/movie-detail', query: { imdb_id: item.imdb_id } }"  class="hover-buttons">
                                                     <div class="play-button-div">
                                                         <!-- <img src="../../../assets/images/play-button.png"> -->
                                                         <div class="play-video">
